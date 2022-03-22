@@ -9,8 +9,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         var txv:TextView = findViewById<TextView>(R.id.txv)
         txv.text = "Hello tcyang"
-        TestDEV()
-        TestMaster()
+        //TestDEV()
+        //TestMaster()
+        txv.text = "嗨，我是楊子青"
+
     }
     fun TestDEV(){
         var txv:TextView = findViewById<TextView>(R.id.txv)
